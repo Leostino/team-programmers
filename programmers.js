@@ -1,3 +1,5 @@
+// programmer object
+
 class Programmer {
     constructor(name, position, age, language) {
         this.name = name;
@@ -5,6 +7,7 @@ class Programmer {
         this.age = age;
         this.language = language;
     }
+// print programmers method
 
     printInfo() {
         console.log(`

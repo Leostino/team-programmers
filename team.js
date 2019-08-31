@@ -1,4 +1,8 @@
+// connect to programmers.js file
+
 const Programmer = require("./programmers.js");
+
+// create a Team object
 
 class Team {
     constructor(project) {
